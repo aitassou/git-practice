@@ -43,10 +43,9 @@ header {
 }
 
 #brand img {
-  width: 3rem;
+  width: 2.5rem;
   height: auto;
   color: #fff;
-  padding-top: 1rem;
   display: inline;
 }
 
@@ -77,7 +76,7 @@ header {
 #nav a:hover,
 #nav a:visited {
   color: #fff;
-  border: 1px solid #A8D0E6;
+  border: 1px solid #26A9E0;
   border-radius: 0.4rem;
 }
 
