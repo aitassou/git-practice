@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
 }
@@ -20,11 +20,13 @@ body {
 
 header {
   height: 100vh;
+
   background: url("/img/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
+
 
 }
 
@@ -104,12 +106,18 @@ header p {
   content: "";
   width: 10%;
   margin: -1rem auto 2rem auto;
-  border-top: 1px solid #374785;
+  border-top: 1px solid #A8D0E6;
   padding: 0;
 
 }
 
 /*HOW TO*/
+
+.caption {
+  width: 90%;
+  margin: 1rem auto;
+
+}
 
 h4 {
   font-size: 2rem;
@@ -117,6 +125,43 @@ h4 {
   color: #fff;
 }
 
+.steps-wrapper {
+  background-color: rgba(168, 208, 230, 0.18);
+  padding: 1rem;
+}
+
+.steps-wrapper a:link,
+.steps-wrapper a:visited,
+.steps-wrapper a:active {
+  text-decoration: none;
+  color: #374785;
+}
+
+#how-to ul {
+
+  list-style-type: none;
+
+
+}
+
+
+#how-to li {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+iframe {
+  padding: 0;
+  margin: 0;
+  margin: 1.5rem auto;
+  max-width: 90%;
+}
+
+
+/*
 .step {
   width: 99%;
   margin: 1rem auto;
@@ -157,15 +202,7 @@ h4 {
   padding: 0;
 }
 
-h2 {
-  text-align: center;
-  padding: 1rem;
-  text-transform: uppercase;
-  font-size: 2rem;
-  line-height: 2;
-  color: #374785;
-  margin-bottom: 0
-}
+
 
 #list-step1 {
   list-style-type: circle;
@@ -175,8 +212,19 @@ h2 {
   margin: 0.4rem;
 }
 
+*/
 
 /* CONTRIBUTORS */
+
+h2 {
+  text-align: center;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 2;
+  color: #374785;
+  margin-bottom: 0
+}
 
 #contributors-cards-wrapper {
   display: -webkit-box;
@@ -267,7 +315,7 @@ h2 {
   background-color: #A8D0E6;
   /*#DEF2F1;*/
   height: 60vh;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem;
 }
 
 textarea {
@@ -297,7 +345,7 @@ input {
 
 button[type=submit] {
   padding: 0.4rem;
-  margin: 0;
+  margin-bottom: 1rem;
   width: 30%;
   float: right;
   border: 1px solid #fff;
@@ -318,6 +366,7 @@ button[type=submit]:hover {
 
 /* FOOTER */
 footer {
+  clear: both;
   text-align: center;
-  color: #ccc
+  color: #ccc;
 }
